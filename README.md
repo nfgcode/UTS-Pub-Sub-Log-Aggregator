@@ -214,21 +214,6 @@ docker compose up --build
 5. **Counter**: `total_received` dan `total_duplicate_dropped` disimpan di SQLite agar tidak direset saat restart.
 6. **Koneksi eksternal**: Tidak ada — semua komponen berjalan lokal di dalam container.
 
----
-
-## Video Demo
-
-> 🎬 **[Link YouTube — masukkan URL setelah upload]**
->
-> Konten demo (5–8 menit):
-> 1. `docker build` dan `docker run` container
-> 2. Kirim event duplikat → tunjukkan idempotency + dedup bekerja di log
-> 3. `GET /events` dan `GET /stats` sebelum dan sesudah duplikat
-> 4. Restart container → dedup store persisten mencegah reprocessing
-> 5. Ringkasan arsitektur dan keputusan desain (30–60 detik)
-
----
-
 ## Sitasi
 
 Tanenbaum, A. S., & Van Steen, M. (2023). *Distributed systems* (edisi ke-3.02). Maarten van Steen. https://www.distributed-systems.net
