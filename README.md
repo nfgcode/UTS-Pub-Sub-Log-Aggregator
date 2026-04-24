@@ -4,6 +4,8 @@ Layanan log aggregator berbasis **Pub-Sub pattern** dengan idempotent consumer
 dan persistent deduplication store (SQLite + WAL mode). Dibangun menggunakan
 **FastAPI** + **asyncio** + **aiosqlite**.
 
+# LINK YOUTUBE: https://youtu.be/WEVxui9QDN0
+# LINK DOKUMEN LAPORAN: https://drive.google.com/file/d/1mkshDhfQf1FVUYcrjSMtOCLoGDU_qzzW/view?usp=sharing
 ---
 
 ## Arsitektur Singkat
