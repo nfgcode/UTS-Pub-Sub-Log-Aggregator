@@ -1,0 +1,10 @@
+# Force LF line endings untuk semua file teks
+# Mencegah CRLF warnings di Windows dan menjaga konsistensi di Docker container
+* text=auto eol=lf
+
+# File biner — jangan diubah
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.ico  binary
+*.db   binary
